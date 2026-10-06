@@ -165,18 +165,8 @@ The MCP server is intentionally separated from the Streamlit process so it can b
 
 Add the final demo URL here after recording:
 
-`DEMO_VIDEO_URL: <replace-with-unlisted-youtube-or-drive-link>`
-
-Suggested 2–3 minute demo flow:
-
-1. Show the architecture briefly.
-2. Start Streamlit.
-3. Ask a policy question and show grounded PDF evidence.
-4. Ask the Ema customer-profile/ticket question and show SQL-derived information.
-5. Ask a question requiring both sources.
-6. Show the MCP tools/server configuration.
-
-## Evaluation Notes
+`DEMO_VIDEO_URL: https://drive.google.com/file/d/1FrqrL4kXPr0v-Xn6blE7YyjNu0bj96YW/view?usp=sharing
+ 
 
 ### Accuracy / grounding
 
@@ -190,6 +180,4 @@ The answer synthesizer receives retrieved evidence and is explicitly instructed 
 - `mcp_server.py`: MCP tool interface.
 - `streamlit_app.py`: UI.
 
-### Production improvements
-
-For production, add authentication, authorization, PII controls, audit logging, database migrations, stronger query validation, observability/tracing, document versioning, hybrid/metadata retrieval, evaluation datasets, and a managed SQL/vector store.
+ 
