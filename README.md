@@ -163,8 +163,6 @@ The MCP server is intentionally separated from the Streamlit process so it can b
 
 ## Demo Video
 
-Add the final demo URL here after recording:
-
 `DEMO_VIDEO_URL: https://drive.google.com/file/d/1FrqrL4kXPr0v-Xn6blE7YyjNu0bj96YW/view?usp=sharing
  
 
